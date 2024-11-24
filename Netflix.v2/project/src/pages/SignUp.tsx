@@ -14,18 +14,18 @@ export const SignUp = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !password) {
-      setError('Please fill in all fields');
+      setError('Por favor preencha todos os campos!');
       return;
     }
     if (password.length < 6) {
-      setError('Password must be at least 6 characters');
+      setError('A senha deve ter pelo menos 6 caracteres');
       return;
     }
     try {
       await login(email, password);
       navigate('/browse');
     } catch (err) {
-      setError('Something went wrong');
+      setError('Algo deu errado');
     }
   };
 
@@ -51,7 +51,7 @@ export const SignUp = () => {
                 <div>
                   <input
                     type="email"
-                    placeholder="Email address"
+                    placeholder="Email"
                     className="w-full bg-[#333] rounded-md px-5 py-3.5 placeholder-[#8c8c8c] focus:outline-none focus:ring-2 focus:ring-red-600"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -60,7 +60,7 @@ export const SignUp = () => {
                 <div>
                   <input
                     type="password"
-                    placeholder="Password"
+                    placeholder="Senha"
                     className="w-full bg-[#333] rounded-md px-5 py-3.5 placeholder-[#8c8c8c] focus:outline-none focus:ring-2 focus:ring-red-600"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}

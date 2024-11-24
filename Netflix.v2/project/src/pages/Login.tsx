@@ -14,14 +14,14 @@ export const Login = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !password) {
-      setError('Please fill in all fields');
+      setError('Por favor preencha todos os campos!');
       return;
     }
     try {
       await login(email, password);
       navigate('/browse');
     } catch (err) {
-      setError('Invalid email or password');
+      setError('Email ou senha inválida');
     }
   };
 
@@ -42,12 +42,12 @@ export const Login = () => {
 
           <div className="flex items-center justify-center min-h-[calc(100vh-80px)]">
             <div className="bg-black bg-opacity-70 p-16 rounded-md w-full max-w-md">
-              <h1 className="text-3xl font-bold mb-8">Sign In</h1>
+              <h1 className="text-3xl font-bold mb-8">Entrar</h1>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <input
                     type="email"
-                    placeholder="Email address"
+                    placeholder="Email"
                     className="w-full bg-[#333] rounded-md px-5 py-3.5 placeholder-[#8c8c8c] focus:outline-none focus:ring-2 focus:ring-red-600"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -56,7 +56,7 @@ export const Login = () => {
                 <div>
                   <input
                     type="password"
-                    placeholder="Password"
+                    placeholder="Senha"
                     className="w-full bg-[#333] rounded-md px-5 py-3.5 placeholder-[#8c8c8c] focus:outline-none focus:ring-2 focus:ring-red-600"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}

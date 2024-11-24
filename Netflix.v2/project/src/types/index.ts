@@ -5,6 +5,9 @@ export interface Movie {
   imageUrl: string;
   genre: string;
   year: number;
+  seasons: number;
+  cast: string;
+  creator: string;
 }
 
 export interface User {
