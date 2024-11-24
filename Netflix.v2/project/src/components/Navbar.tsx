@@ -23,14 +23,14 @@ export const Navbar = () => {
             onClick={handleLogout}
             className="text-white hover:underline"
           >
-            Sign Out
+            Sair
           </button>
         ) : (
           <Link
             to="/login"
             className="bg-red-600 text-white px-4 py-1 rounded-md hover:bg-red-700"
           >
-            Sign In
+            Entrar
           </Link>
         )}
       </div>

@@ -46,7 +46,7 @@ export const SignUp = () => {
 
           <div className="flex items-center justify-center min-h-[calc(100vh-80px)]">
             <div className="bg-black bg-opacity-70 p-16 rounded-md w-full max-w-md">
-              <h1 className="text-3xl font-bold mb-8">Sign Up</h1>
+              <h1 className="text-3xl font-bold mb-8">Entrar</h1>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <input
@@ -73,10 +73,10 @@ export const SignUp = () => {
                   type="submit"
                   className="w-full bg-red-600 text-white py-3 rounded-md font-semibold hover:bg-red-700 transition duration-300 flex items-center justify-center gap-2"
                 >
-                  Sign Up <ChevronRight className="w-5 h-5" />
+                  Criar conta <ChevronRight className="w-5 h-5" />
                 </button>
                 <div className="text-[#737373] text-sm">
-                  <p>Already have an account? <Link to="/login" className="text-white hover:underline">Sign in now</Link></p>
+                  <p>Já tem uma conta? <Link to="/login" className="text-white hover:underline">Entrar agora</Link></p>
                 </div>
               </form>
             </div>

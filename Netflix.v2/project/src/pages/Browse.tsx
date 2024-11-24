@@ -20,15 +20,15 @@ export const Browse = () => {
             <div className="absolute bottom-1/4 left-12 max-w-xl">
               <h1 className="text-5xl font-bold mb-4">Stranger Things</h1>
               <p className="text-lg mb-6">
-                When a young boy vanishes, a small town uncovers a mystery involving
-                secret experiments, terrifying supernatural forces, and one strange little girl.
+              Quando um menino desaparece, uma pequena cidade descobre um mistério envolvendo
+              experimentos secretos, forças sobrenaturais aterrorizantes e uma garotinha estranha.
               </p>
               <div className="flex gap-4">
                 <button className="bg-white text-black px-8 py-2 rounded-md flex items-center gap-2 hover:bg-opacity-80">
-                  Play
+                  Assistir
                 </button>
                 <button className="bg-gray-500 bg-opacity-50 px-8 py-2 rounded-md flex items-center gap-2 hover:bg-opacity-70">
-                  More Info
+                  Mais informações
                 </button>
               </div>
             </div>
@@ -38,7 +38,7 @@ export const Browse = () => {
 
       {/* Movies Grid */}
       <div className="px-12 py-8">
-        <h2 className="text-2xl font-bold mb-6">Trending Now</h2>
+        <h2 className="text-2xl font-bold mb-6">Em Alta</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {movies.map((movie) => (
             <MovieCard key={movie.id} movie={movie} />

@@ -69,10 +69,10 @@ export const Login = () => {
                   type="submit"
                   className="w-full bg-red-600 text-white py-3 rounded-md font-semibold hover:bg-red-700 transition duration-300"
                 >
-                  Sign In
+                  Entrar
                 </button>
                 <div className="text-[#737373] text-sm">
-                  <p>New to Netflix? <Link to="/signup" className="text-white hover:underline">Sign up now</Link></p>
+                  <p>Novo na Netflix? <Link to="/signup" className="text-white hover:underline">Entrar agora</Link></p>
                 </div>
               </form>
             </div>

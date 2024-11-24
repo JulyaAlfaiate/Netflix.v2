@@ -19,10 +19,10 @@ export const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
           <h3 className="text-lg font-bold">{movie.title}</h3>
           <div className="flex gap-2 mt-2">
             <button className="bg-white text-black px-4 py-1 rounded-md flex items-center gap-1 hover:bg-opacity-80">
-              <Play className="w-4 h-4" /> Play
+              <Play className="w-4 h-4" /> Iniciar
             </button>
             <button className="bg-gray-500 bg-opacity-50 px-4 py-1 rounded-md flex items-center gap-1 hover:bg-opacity-70">
-              <Info className="w-4 h-4" /> More Info
+              <Info className="w-4 h-4" /> Mais informações
             </button>
           </div>
         </div>
