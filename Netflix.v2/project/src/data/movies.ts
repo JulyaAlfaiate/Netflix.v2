@@ -5,7 +5,7 @@ export const movies: Movie[] = [
     id: 1,
     title: "Stranger Things",
     description: "Quando um menino desaparece, uma pequena cidade descobre um mistério envolvendo experimentos secretos, forças sobrenaturais aterrorizantes e uma garotinha estranha.",
-    imageUrl: "https://occ-0-8407-114.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXv9UDtXqQmlucaK8GGqsM7rPRDlXHvfum1tHNfZYG0VswoR6uVP8t2MHXEWGkxu6t0xh8rXARCs6p_taSsWaUgZCCf74WjNFvC_F7qKaGJFFlFDIOAt6TIy_qjnydLqD-sbEw.jpg?r=23e",
+    imageUrl: "https://occ-0-8407-2433.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZHclp-1JynUWnj9GdlOIvdYHUxD_rBSmk_Q53L_xPrPHOrv9tobzVvkBJCOshIp4P0hDc_3Zus-1ACtLZjGd0GF682Bf46iZQXVIk4hwY1mWsSG_9enpVAi_qNn08Nr-kAT2A.jpg?r=c68",
     genre: "Sci-Fi & Fantasy, Drama, Mystery",
     year: 2016,
     seasons: 4,
