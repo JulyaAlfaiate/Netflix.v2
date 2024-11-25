@@ -13,7 +13,7 @@ export const Browse = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("https://minhtuanmobile.com/uploads/blog/netflix-nha-hang-tua-de-cac-tap-cua-stranger-things-mua-5-241107100934.jpg")'
+            backgroundImage: 'url("https://www.gamersegames.com.br/wp-content/uploads/2024/07/stranger-things-5-temporada-netflix.webp")'
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-transparent">
