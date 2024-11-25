@@ -8,12 +8,12 @@ export const Browse = () => {
     <div className="min-h-screen bg-black text-white">
       <Navbar />
       
-      {/* Hero Section */}
+      {/* Sessão Stranger Things */}
       <div className="relative h-[80vh] w-full">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("https://occ-0-8407-2433.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZHclp-1JynUWnj9GdlOIvdYHUxD_rBSmk_Q53L_xPrPHOrv9tobzVvkBJCOshIp4P0hDc_3Zus-1ACtLZjGd0GF682Bf46iZQXVIk4hwY1mWsSG_9enpVAi_qNn08Nr-kAT2A.jpg?r=c68")'
+            backgroundImage: 'url("https://minhtuanmobile.com/uploads/blog/netflix-nha-hang-tua-de-cac-tap-cua-stranger-things-mua-5-241107100934.jpg")'
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-transparent">
@@ -36,7 +36,7 @@ export const Browse = () => {
         </div>
       </div>
 
-      {/* Movies Grid */}
+      {/* Parte dos CARDS DOS FILMES */}
       <div className="px-12 py-8">
         <h2 className="text-2xl font-bold mb-6">Em Alta</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
