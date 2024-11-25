@@ -3,20 +3,20 @@ import { Movie } from '../types';
 export const movies: Movie[] = [
   {
     id: 1,
-    title: "Stranger Things",
-    description: "Quando um menino desaparece, uma pequena cidade descobre um mistério envolvendo experimentos secretos, forças sobrenaturais aterrorizantes e uma garotinha estranha.",
-    imageUrl: "https://occ-0-8407-2433.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZHclp-1JynUWnj9GdlOIvdYHUxD_rBSmk_Q53L_xPrPHOrv9tobzVvkBJCOshIp4P0hDc_3Zus-1ACtLZjGd0GF682Bf46iZQXVIk4hwY1mWsSG_9enpVAi_qNn08Nr-kAT2A.jpg?r=c68",
-    genre: "Sci-Fi & Fantasy, Drama, Mystery",
-    year: 2016,
-    seasons: 4,
-    cast: "Millie Bobby Brown, Finn Wolfhard, Winona Ryder, David Harbour",
-    creator: "The Duffer Brothers"
+    title: "Arcane",
+    description: "Em meio ao conflito entre as cidades-gêmeas de Piltover e Zaun, duas irmãs lutam em lados opostos de uma guerra entre tecnologias mágicas e convicções incompatíveis.",
+    imageUrl: "https://www.ndgames.com.br/wp-content/uploads/2024/06/Mobile-capa-ArcaneTemp2.png",
+    genre: "Ação",
+    year: 2024,
+    seasons: 2,
+    cast: "Hailee Steinfeld, Ella Purnell e Kevin Alejandro",
+    creator: "Christian Linke e Alex Yee"
   },
   {
     id: 2,
     title: "The Crown",
     description: "Este drama acompanha as rivalidades políticas e o romance do reinado da Rainha Elizabeth II e os eventos que moldaram a segunda metade do século XX.",
-    imageUrl: "https://i.ytimg.com/vi/dFZC-_T_irA/maxresdefault.jpg",
+    imageUrl: "https://valkirias.com.br/wp-content/uploads/2016/11/the-crown-destacada-valkirias.png",
     genre: "Drama, Historical",
     year: 2016,
     seasons: 6,
@@ -38,7 +38,7 @@ export const movies: Movie[] = [
     id: 4,
     title: "The Witcher",
     description: "Geralt de Rivia, um caçador de monstros mutante contratado, viaja em direção ao seu destino em um mundo turbulento onde as pessoas muitas vezes se mostram mais perversas do que as feras.",
-    imageUrl: "https://occ-0-8407-114.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXv9UDtXqQmlucaK8GGqsM7rPRDlXHvfum1tHNfZYG0VswoR6uVP8t2MHXEWGkxu6t0xh8rXARCs6p_taSsWaUgZCCf74WjNFvC_F7qKaGJFFlFDIOAt6TIy_qjnydLqD-sbEw.jpg?r=23e",
+    imageUrl: "https://pic.clubic.com/2aa460231953444/1200x675/smart/the-witcher.jpg",
     genre: "Fantasy, Action, Drama",
     year: 2019,
     seasons: 3,
